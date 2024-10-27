@@ -105,12 +105,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-touched-object",
+					"id": "on-tap-object",
 					"objectClass": "Тач",
-					"sid": 159590369491589,
+					"sid": 984409158163803,
 					"parameters": {
-						"object": "атака",
-						"type": "end"
+						"object": "атака"
 					}
 				}
 			],
