@@ -5,9 +5,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-hold-over-object",
+					"id": "is-touching-object",
 					"objectClass": "Тач",
-					"sid": 752201332804831,
+					"sid": 942564545045768,
 					"parameters": {
 						"object": "вверх"
 					}
@@ -30,9 +30,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-hold-over-object",
+					"id": "is-touching-object",
 					"objectClass": "Тач",
-					"sid": 762915737766630,
+					"sid": 216066637852329,
 					"parameters": {
 						"object": "вправо"
 					}
@@ -55,9 +55,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-hold-over-object",
+					"id": "is-touching-object",
 					"objectClass": "Тач",
-					"sid": 950598191232393,
+					"sid": 982954913391628,
 					"parameters": {
 						"object": "влево"
 					}
@@ -80,9 +80,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-hold-over-object",
+					"id": "is-touching-object",
 					"objectClass": "Тач",
-					"sid": 543033081490828,
+					"sid": 297236604853844,
 					"parameters": {
 						"object": "вниз"
 					}
