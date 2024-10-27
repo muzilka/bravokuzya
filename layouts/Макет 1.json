@@ -573,7 +573,7 @@
 								"acceleration": 600,
 								"deceleration": 500,
 								"directions": "dir-4",
-								"set-angle": "no",
+								"set-angle": "interval-90",
 								"allow-sliding": false,
 								"default-controls": true,
 								"enabled": true

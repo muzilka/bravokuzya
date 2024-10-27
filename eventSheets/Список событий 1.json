@@ -117,13 +117,13 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Кузя",
-					"sid": 264498585283047,
+					"sid": 814429618020587,
 					"parameters": {
 						"object": "шарик",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false,
-						"template-name": "\"\""
+						"template-name": "\"kuza\""
 					}
 				}
 			],
@@ -177,9 +177,19 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "шарик",
-					"sid": 520781711699895,
+					"sid": 908067605276717,
 					"parameters": {
 						"object": "Кузя"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 874748766135992,
+					"parameters": {
+						"first-value": "шарик.TemplateName",
+						"comparison": 0,
+						"second-value": "\"vrag\""
 					}
 				}
 			],
@@ -187,10 +197,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "шарик",
-					"sid": 672494237298559
+					"sid": 243135955274629
 				}
 			],
-			"sid": 502682254720280
+			"sid": 782397178323057
 		}
 	],
 	"sid": 180342587758737
