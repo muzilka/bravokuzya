@@ -311,11 +311,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 498222341385991,
+					"sid": 802756730417626,
 					"parameters": {
 						"first-value": "враги.Progress",
-						"comparison": 3,
-						"second-value": "0"
+						"comparison": 0,
+						"second-value": "6"
 					}
 				}
 			],
