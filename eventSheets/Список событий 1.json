@@ -105,28 +105,23 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-touching-object",
+					"id": "on-tap-object",
 					"objectClass": "Тач",
-					"sid": 647511105580627,
+					"sid": 923298609316849,
 					"parameters": {
 						"object": "атака"
 					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 614782302170813
 				}
 			],
 			"actions": [
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Кузя",
-					"sid": 337964360778247,
+					"sid": 264498585283047,
 					"parameters": {
 						"object": "шарик",
 						"layer": "0",
-						"image-point": "0",
+						"image-point": "1",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}

@@ -52,6 +52,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Точка спрайта 1",
+								"x": 0.74,
+								"y": 0.78
+							}
+						],
 						"duration": 1,
 						"tag": ""
 					}
