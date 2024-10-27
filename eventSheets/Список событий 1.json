@@ -105,12 +105,17 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-tap-object",
+					"id": "is-touching-object",
 					"objectClass": "Тач",
-					"sid": 984409158163803,
+					"sid": 647511105580627,
 					"parameters": {
 						"object": "атака"
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 614782302170813
 				}
 			],
 			"actions": [

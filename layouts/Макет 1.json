@@ -260,53 +260,6 @@
 					}
 				},
 				{
-					"type": "шарик",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"sid": 748245123948618,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Пуля": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 748245123948618,
-						"expanded": true
-					},
-					"world": {
-						"x": 577,
-						"y": -82,
-						"width": 50,
-						"height": 50,
-						"originX": 0.49705304518664045,
-						"originY": 0.5107632093933464,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "забор",
 					"properties": {
 						"initially-visible": true,
@@ -868,6 +821,53 @@
 						"height": 99.91746104997772,
 						"originX": 0.49653259361997226,
 						"originY": 0.4986187845303867,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "шарик",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"sid": 748245123948618,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Пуля": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 748245123948618,
+						"expanded": true
+					},
+					"world": {
+						"x": 577,
+						"y": -82,
+						"width": 50,
+						"height": 50,
+						"originX": 0.49705304518664045,
+						"originY": 0.5107632093933464,
 						"color": [
 							1,
 							1,
