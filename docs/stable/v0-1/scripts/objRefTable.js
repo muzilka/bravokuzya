@@ -9,10 +9,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.TiledBg,
 		C3.Behaviors.solid,
 		C3.Behaviors.Bullet,
-		C3.Plugins.progressbar,
-		C3.Behaviors.Sin,
-		C3.Plugins.Text,
-		C3.Plugins.Button,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
@@ -20,16 +16,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Cnds.Compare,
-		C3.Plugins.progressbar.Exps.Progress,
-		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.Sprite.Acts.SetOpacity,
-		C3.Plugins.Sprite.Exps.Opacity,
-		C3.Plugins.Sprite.Cnds.CompareOpacity,
-		C3.Plugins.progressbar.Acts.SetProgress,
-		C3.Plugins.progressbar.Cnds.CompareProgress,
-		C3.Plugins.System.Cnds.Every,
-		C3.Plugins.Sprite.Cnds.OnDestroyed,
-		C3.Plugins.Button.Cnds.OnClicked
+		C3.Plugins.Sprite.Exps.TemplateName
 	];
 };
 self.C3_JsPropNameTable = [
@@ -48,17 +35,7 @@ self.C3_JsPropNameTable = [
 	{забортайл: 0},
 	{Пуля: 0},
 	{шарик: 0},
-	{атака: 0},
-	{жизни: 0},
-	{Синусоида: 0},
-	{враг: 0},
-	{враги: 0},
-	{фонменю: 0},
-	{играть: 0},
-	{кузяДемо: 0},
-	{шд: 0},
-	{Текст: 0},
-	{вМеню: 0}
+	{атака: 0}
 ];
 
 self.InstanceType = {
@@ -72,14 +49,5 @@ self.InstanceType = {
 	забор: class extends self.ISpriteInstance {},
 	забортайл: class extends self.ITiledBackgroundInstance {},
 	шарик: class extends self.ISpriteInstance {},
-	атака: class extends self.ISpriteInstance {},
-	жизни: class extends self.IProgressBarInstance {},
-	враг: class extends self.ISpriteInstance {},
-	враги: class extends self.IProgressBarInstance {},
-	фонменю: class extends self.ISpriteInstance {},
-	играть: class extends self.ISpriteInstance {},
-	кузяДемо: class extends self.ISpriteInstance {},
-	шд: class extends self.ISpriteInstance {},
-	Текст: class extends self.ITextInstance {},
-	вМеню: class extends self.IButtonInstance {}
+	атака: class extends self.ISpriteInstance {}
 }

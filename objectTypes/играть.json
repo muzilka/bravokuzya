@@ -1,0 +1,51 @@
+{
+	"name": "играть",
+	"plugin-id": "Sprite",
+	"sid": 811137374606512,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 500,
+						"height": 134,
+						"originX": 0.48584615384615387,
+						"originY": 0.4863013698630137,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 525907,
+						"collisionPoly": {
+							"points": [
+								0.12307692307692306,
+								0.0045662100456621,
+								0.8910769230769231,
+								0.01141552511415525,
+								0.8738461538461538,
+								0.997716894977169,
+								0.088,
+								0.9680365296803652
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 543590557353376,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

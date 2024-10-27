@@ -1,0 +1,53 @@
+{
+	"name": "шд",
+	"plugin-id": "Sprite",
+	"sid": 499708614910973,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 463,
+						"height": 137,
+						"originX": 0.5075593952483801,
+						"originY": 0.5474452554744526,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8886865,
+						"collisionPoly": {
+							"points": [
+								0.978401727861771,
+								0.10948905109489052,
+								0.9913606911447084,
+								0.15328467153284672,
+								0.9632829373650108,
+								0.9854014598540146,
+								0.03023758099352052,
+								0.9708029197080292,
+								0.058315334773218146,
+								0.19708029197080293
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 152786173571029,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

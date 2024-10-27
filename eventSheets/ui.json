@@ -1,0 +1,51 @@
+{
+	"name": "ui",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Тач",
+					"sid": 485642609598673,
+					"parameters": {
+						"object": "играть"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 814076735920022,
+					"parameters": {
+						"layout": "игра"
+					}
+				}
+			],
+			"sid": 873870213562271
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "вМеню",
+					"sid": 242010503793781
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 709433307394911,
+					"parameters": {
+						"layout": "меню"
+					}
+				}
+			],
+			"sid": 523629163679058
+		}
+	],
+	"sid": 308337869872299
+}

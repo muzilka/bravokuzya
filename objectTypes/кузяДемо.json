@@ -1,0 +1,61 @@
+{
+	"name": "кузяДемо",
+	"plugin-id": "Sprite",
+	"sid": 750217017143847,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 456,
+						"height": 740,
+						"originX": 0.42653508771929827,
+						"originY": 0.22432432432432434,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3363614,
+						"collisionPoly": {
+							"points": [
+								0.18640350877192982,
+								0.005405405405405406,
+								0.4583333333333333,
+								0.04594594594594595,
+								0.5416666666666666,
+								0.0945945945945946,
+								0.9780701754385965,
+								0.8027027027027027,
+								0.6864035087719298,
+								0.995945945945946,
+								0.12280701754385959,
+								0.9135135135135135,
+								0.019736842105263157,
+								0.4445945945945946,
+								0.0043859649122807015,
+								0.22027027027027027,
+								0.12061403508771923,
+								0.024324324324324326
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 702899761800747,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

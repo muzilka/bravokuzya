@@ -8,8 +8,22 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Кнопка",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Спрайт",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Текст",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -24,6 +38,13 @@
 			"type": "plugin",
 			"id": "Touch",
 			"name": "Тач",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Индикатор",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -45,6 +66,13 @@
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Направлений",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Синусоида",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -76,7 +104,16 @@
 			"забор",
 			"забортайл",
 			"шарик",
-			"атака"
+			"атака",
+			"жизни",
+			"враг",
+			"враги",
+			"фонменю",
+			"играть",
+			"кузяДемо",
+			"шд",
+			"Текст",
+			"вМеню"
 		],
 		"subfolders": []
 	},
@@ -88,13 +125,17 @@
 	},
 	"layouts": {
 		"items": [
-			"Макет 1"
+			"игра",
+			"проигрыш",
+			"победа",
+			"меню"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Список событий 1"
+			"game",
+			"ui"
 		],
 		"subfolders": []
 	},
@@ -255,5 +296,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "меню"
 }

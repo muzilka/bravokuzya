@@ -167,19 +167,6 @@ return outputChannel.port1}GetPortData(){return{"inputPort":this._inputPort,"out
 err);return false}}};self.RuntimeInterface.AddDOMHandlerClass(HANDLER_CLASS)};
 
 
-// scripts/plugins/progressbar/dom/domSide.js
-'use strict';{const DOM_COMPONENT_ID="progress-bar";function StopPropagation(e){e.stopPropagation()}const HANDLER_CLASS=class ProgressBarDOMHandler extends self.DOMElementHandler{constructor(iRuntime){super(iRuntime,DOM_COMPONENT_ID)}CreateElement(elementId,e){const elem=document.createElement("progress");elem.style.position="absolute";elem.style.userSelect="none";elem.style.webkitUserSelect="none";elem.addEventListener("pointerdown",StopPropagation);elem.addEventListener("pointermove",StopPropagation);
-elem.addEventListener("pointerrawupdate",StopPropagation);elem.addEventListener("pointerup",StopPropagation);elem.addEventListener("mousedown",StopPropagation);elem.addEventListener("mouseup",StopPropagation);elem.addEventListener("click",()=>this._PostToRuntimeElementMaybeSync("click",elementId));if(e["id"])elem.id=e["id"];if(e["className"])elem.className=e["className"];this.UpdateState(elem,e);return elem}UpdateState(elem,e){elem.title=e["title"];const value=e["value"];const max=e["max"];if(max>
-0&&value>=0){elem.max=max;elem.value=value}else{elem.removeAttribute("value");elem.removeAttribute("max")}}};self.RuntimeInterface.AddDOMHandlerClass(HANDLER_CLASS)};
-
-
-// scripts/plugins/Button/dom/domSide.js
-'use strict';{const DOM_COMPONENT_ID="button";function StopPropagation(e){e.stopPropagation()}const HANDLER_CLASS=class ButtonDOMHandler extends self.DOMElementHandler{constructor(iRuntime){super(iRuntime,DOM_COMPONENT_ID)}CreateElement(elementId,e){const inputElem=document.createElement("input");const isCheckbox=e["isCheckbox"];let mainElem=inputElem;if(isCheckbox){inputElem.type="checkbox";const labelElem=document.createElement("label");labelElem.appendChild(inputElem);labelElem.appendChild(document.createTextNode(""));
-labelElem.style.fontFamily="sans-serif";labelElem.style.userSelect="none";labelElem.style.webkitUserSelect="none";labelElem.style.display="inline-block";labelElem.style.color="black";mainElem=labelElem}else inputElem.type="button";mainElem.style.position="absolute";mainElem.addEventListener("pointerdown",StopPropagation);mainElem.addEventListener("pointermove",StopPropagation);mainElem.addEventListener("pointerrawupdate",StopPropagation);mainElem.addEventListener("pointerup",StopPropagation);mainElem.addEventListener("mousedown",
-StopPropagation);mainElem.addEventListener("mouseup",StopPropagation);mainElem.addEventListener("keydown",StopPropagation);mainElem.addEventListener("keyup",StopPropagation);mainElem.addEventListener("contextmenu",e=>e.preventDefault());inputElem.addEventListener("click",()=>this._PostToRuntimeElementMaybeSync("click",elementId,{"isChecked":inputElem.checked}));if(e["id"])inputElem.id=e["id"];if(e["className"])inputElem.className=e["className"];this.UpdateState(mainElem,e);return mainElem}_GetInputElem(mainElem){if(mainElem.tagName.toLowerCase()===
-"input")return mainElem;else return mainElem.firstChild}_GetFocusElement(mainElem){return this._GetInputElem(mainElem)}UpdateState(mainElem,e){const inputElem=this._GetInputElem(mainElem);inputElem.checked=e["isChecked"];inputElem.disabled=!e["isEnabled"];mainElem.title=e["title"];if(mainElem===inputElem)inputElem.value=e["text"];else mainElem.lastChild.textContent=e["text"]}};self.RuntimeInterface.AddDOMHandlerClass(HANDLER_CLASS)};
-
-
 // start-export.js
 'use strict';{if(window["C3_Is_Supported"]){const enableWorker=true;window["c3_runtimeInterface"]=new self.RuntimeInterface({useWorker:enableWorker,workerMainUrl:"workermain.js",runtimeScriptList:["scripts/c3main.js"],scriptFolder:"scripts/",exportType:"html5"})}};
 

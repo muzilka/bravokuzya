@@ -1,5 +1,5 @@
 {
-	"name": "Список событий 1",
+	"name": "game",
 	"events": [
 		{
 			"eventType": "block",
@@ -117,13 +117,13 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Кузя",
-					"sid": 814429618020587,
+					"sid": 979456631587223,
 					"parameters": {
 						"object": "шарик",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false,
-						"template-name": "\"kuza\""
+						"template-name": "1"
 					}
 				}
 			],
@@ -175,32 +175,182 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 443036445602148,
+					"parameters": {
+						"first-value": "жизни.Progress",
+						"comparison": 3,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 582272588645523,
+					"parameters": {
+						"layout": "проигрыш"
+					}
+				}
+			],
+			"sid": 289998397612284
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "шарик",
-					"sid": 908067605276717,
+					"sid": 487918525425458,
 					"parameters": {
-						"object": "Кузя"
+						"object": "враг"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "враг",
+					"sid": 159684978554616,
+					"parameters": {
+						"opacity": "враг.Opacity - 16.7"
 					}
 				},
 				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 874748766135992,
+					"id": "destroy",
+					"objectClass": "шарик",
+					"sid": 162916224345709
+				}
+			],
+			"sid": 356154833343600
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-opacity",
+					"objectClass": "враг",
+					"sid": 955593667597717,
 					"parameters": {
-						"first-value": "шарик.TemplateName",
-						"comparison": 0,
-						"second-value": "\"vrag\""
+						"comparison": 3,
+						"opacity": "0"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "destroy",
-					"objectClass": "шарик",
-					"sid": 243135955274629
+					"objectClass": "враг",
+					"sid": 611616476616902
 				}
 			],
-			"sid": 782397178323057
+			"sid": 689981713750628
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Кузя",
+					"sid": 961553662096782,
+					"parameters": {
+						"object": "враг"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "жизни",
+					"sid": 509340758947068,
+					"parameters": {
+						"value": "жизни.Progress - 50"
+					}
+				}
+			],
+			"sid": 630125826506661
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "жизни",
+					"sid": 894772535300767,
+					"parameters": {
+						"comparison": 3,
+						"value": "175"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 393284408561822,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "жизни",
+					"sid": 507263261444914,
+					"parameters": {
+						"value": "жизни.Progress + 25"
+					}
+				}
+			],
+			"sid": 543978237355298
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 498222341385991,
+					"parameters": {
+						"first-value": "враги.Progress",
+						"comparison": 3,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 819230434711723,
+					"parameters": {
+						"layout": "победа"
+					}
+				}
+			],
+			"sid": 244292166054331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "враг",
+					"sid": 840084027460891
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "враги",
+					"sid": 470873159574722,
+					"parameters": {
+						"value": "враги.Progress + 1"
+					}
+				}
+			],
+			"sid": 182496244192873
 		}
 	],
 	"sid": 180342587758737
