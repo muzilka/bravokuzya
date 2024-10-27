@@ -107,10 +107,10 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Тач",
-					"sid": 662044745012953,
+					"sid": 159590369491589,
 					"parameters": {
 						"object": "атака",
-						"type": "start"
+						"type": "end"
 					}
 				}
 			],
