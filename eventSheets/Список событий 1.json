@@ -171,6 +171,27 @@
 				}
 			],
 			"sid": 695654100046559
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "шарик",
+					"sid": 520781711699895,
+					"parameters": {
+						"object": "Кузя"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "шарик",
+					"sid": 672494237298559
+				}
+			],
+			"sid": 502682254720280
 		}
 	],
 	"sid": 180342587758737
