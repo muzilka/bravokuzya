@@ -1,0 +1,106 @@
+{
+	"name": "Список событий 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-hold-over-object",
+					"objectClass": "Тач",
+					"sid": 752201332804831,
+					"parameters": {
+						"object": "вверх"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Кузя",
+					"sid": 408453550577712,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"control": "up"
+					}
+				}
+			],
+			"sid": 243940036235036
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-hold-over-object",
+					"objectClass": "Тач",
+					"sid": 762915737766630,
+					"parameters": {
+						"object": "вправо"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Кузя",
+					"sid": 819607452613971,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 258754969650068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-hold-over-object",
+					"objectClass": "Тач",
+					"sid": 950598191232393,
+					"parameters": {
+						"object": "влево"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Кузя",
+					"sid": 990276658318872,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 944372968040291
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-hold-over-object",
+					"objectClass": "Тач",
+					"sid": 543033081490828,
+					"parameters": {
+						"object": "вниз"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Кузя",
+					"sid": 117755235621132,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"control": "down"
+					}
+				}
+			],
+			"sid": 135012346084660
+		}
+	],
+	"sid": 180342587758737
+}
