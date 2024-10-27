@@ -100,6 +100,77 @@
 				}
 			],
 			"sid": 135012346084660
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Тач",
+					"sid": 662044745012953,
+					"parameters": {
+						"object": "атака",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Кузя",
+					"sid": 337964360778247,
+					"parameters": {
+						"object": "шарик",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 533776509797437
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "шарик",
+					"sid": 742154765809712,
+					"parameters": {
+						"object": "забор"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "шарик",
+					"sid": 774434154003381
+				}
+			],
+			"sid": 689492884651445
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "шарик",
+					"sid": 102870007763505,
+					"parameters": {
+						"object": "забортайл"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "шарик",
+					"sid": 859276127779349
+				}
+			],
+			"sid": 695654100046559
 		}
 	],
 	"sid": 180342587758737

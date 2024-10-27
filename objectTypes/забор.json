@@ -1,0 +1,57 @@
+{
+	"name": "забор",
+	"plugin-id": "Sprite",
+	"sid": 981363515353913,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Твёрдый",
+			"sid": 481283743224588
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 300,
+						"height": 153,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2491296,
+						"collisionPoly": {
+							"points": [
+								0.0044444444444444444,
+								0.3297180043383948,
+								0.9988888888888889,
+								0.34273318872017355,
+								0.9944444444444445,
+								0.6268980477223427,
+								0.0033333333333333335,
+								0.631236442516269
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 512761064049663,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

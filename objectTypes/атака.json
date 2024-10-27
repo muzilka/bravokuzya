@@ -1,0 +1,61 @@
+{
+	"name": "атака",
+	"plugin-id": "Sprite",
+	"sid": 622896176797797,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Якорь",
+			"sid": 218641278272434
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 50,
+						"height": 50,
+						"originX": 0.49653259361997226,
+						"originY": 0.4986187845303867,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 909935,
+						"collisionPoly": {
+							"points": [
+								0.43828016643550627,
+								0.0013812154696132596,
+								0.9972260748959778,
+								0.44751381215469616,
+								0.9972260748959778,
+								0.5179558011049724,
+								0.5006934812760055,
+								0.9972375690607734,
+								0.004160887656033284,
+								0.6243093922651933,
+								0.0027739251040221915,
+								0.45027624309392267
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 669464784490292,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

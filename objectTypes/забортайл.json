@@ -1,0 +1,28 @@
+{
+	"name": "забортайл",
+	"plugin-id": "TiledBg",
+	"sid": 956556078889975,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Твёрдый",
+			"sid": 336441827981842
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 300,
+		"height": 153,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 449110,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
