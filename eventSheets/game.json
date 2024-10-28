@@ -321,28 +321,6 @@
 			],
 			"actions": [
 				{
-					"id": "request-persistent",
-					"objectClass": "ЛокальноеХранилище",
-					"sid": 760985330575894
-				},
-				{
-					"id": "get-item",
-					"objectClass": "ЛокальноеХранилище",
-					"sid": 889036055229906,
-					"parameters": {
-						"key": "\"pbd\""
-					}
-				},
-				{
-					"id": "set-item",
-					"objectClass": "ЛокальноеХранилище",
-					"sid": 938924006276557,
-					"parameters": {
-						"key": "\"pbd\"",
-						"value": "ЛокальноеХранилище.ItemValue + 1"
-					}
-				},
-				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 819230434711723,
@@ -351,8 +329,7 @@
 					}
 				}
 			],
-			"sid": 244292166054331,
-			"disabled": true
+			"sid": 244292166054331
 		},
 		{
 			"eventType": "block",
