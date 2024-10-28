@@ -42,12 +42,94 @@
 					}
 				},
 				{
-					"type": "Текст",
+					"type": "выход",
 					"properties": {
-						"text": "К сожалению данный объект не доступен. Перейдите в меню!",
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 38,
+					"sid": 101965058827496,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 101965058827496,
+						"expanded": true
+					},
+					"world": {
+						"x": 731,
+						"y": 441,
+						"width": 200,
+						"height": 51,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "кузяДемо",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"sid": 249763916674233,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Поворот": {
+							"properties": {
+								"speed": 600,
+								"acceleration": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Мигание": {
+							"properties": {}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 249763916674233,
+						"expanded": true
+					},
+					"world": {
+						"x": 412,
+						"y": 113,
+						"width": 205.33861835955955,
+						"height": 333.2249508466536,
+						"originX": 0.42653508771929827,
+						"originY": 0.22432432432432434,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Победа",
+					"properties": {
+						"text": "Победа!",
 						"enable-bbcode": true,
-						"font": "Arial Rounded MT",
-						"size": 28,
+						"font": "Franklin Gothic",
+						"size": 46,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -66,20 +148,20 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 39,
-					"sid": 495686269731469,
+					"uid": 42,
+					"sid": 667808338936391,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 495686269731469,
+						"sid": 667808338936391,
 						"expanded": true
 					},
 					"world": {
-						"x": 148,
-						"y": 91,
-						"width": 599,
-						"height": 137,
+						"x": 16,
+						"y": 15,
+						"width": 231,
+						"height": 80,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -90,43 +172,6 @@
 						],
 						"angle": 0,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "вМеню",
-					"properties": {
-						"type": "button",
-						"text": "OK",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 38,
-					"sid": 797093406637808,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 797093406637808,
-						"expanded": true
-					},
-					"world": {
-						"x": 320,
-						"y": 254,
-						"width": 172,
-						"height": 67,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
 					}
 				}
 			],

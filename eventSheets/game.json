@@ -264,9 +264,9 @@
 				{
 					"id": "set-progress",
 					"objectClass": "жизни",
-					"sid": 509340758947068,
+					"sid": 303827395061448,
 					"parameters": {
-						"value": "жизни.Progress - 50"
+						"value": "жизни.Progress - 75"
 					}
 				}
 			],
@@ -321,6 +321,28 @@
 			],
 			"actions": [
 				{
+					"id": "request-persistent",
+					"objectClass": "ЛокальноеХранилище",
+					"sid": 760985330575894
+				},
+				{
+					"id": "get-item",
+					"objectClass": "ЛокальноеХранилище",
+					"sid": 889036055229906,
+					"parameters": {
+						"key": "\"pbd\""
+					}
+				},
+				{
+					"id": "set-item",
+					"objectClass": "ЛокальноеХранилище",
+					"sid": 938924006276557,
+					"parameters": {
+						"key": "\"pbd\"",
+						"value": "ЛокальноеХранилище.ItemValue + 1"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 819230434711723,
@@ -329,7 +351,8 @@
 					}
 				}
 			],
-			"sid": 244292166054331
+			"sid": 244292166054331,
+			"disabled": true
 		},
 		{
 			"eventType": "block",

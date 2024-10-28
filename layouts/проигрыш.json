@@ -42,12 +42,47 @@
 					}
 				},
 				{
-					"type": "Текст",
+					"type": "выход",
 					"properties": {
-						"text": "К сожалению данный объект не доступен. Перейдите в меню!",
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"sid": 831615154198975,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 831615154198975,
+						"expanded": true
+					},
+					"world": {
+						"x": 731,
+						"y": 441,
+						"width": 200,
+						"height": 51,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "проигрыш",
+					"properties": {
+						"text": "Поражение!",
 						"enable-bbcode": true,
-						"font": "Arial Rounded MT",
-						"size": 28,
+						"font": "Franklin Gothic",
+						"size": 44,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -66,20 +101,20 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 37,
-					"sid": 373727865263946,
+					"uid": 40,
+					"sid": 276249938723767,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 373727865263946,
+						"sid": 276249938723767,
 						"expanded": true
 					},
 					"world": {
-						"x": 127,
-						"y": 121,
-						"width": 599,
-						"height": 137,
+						"x": 6,
+						"y": 7,
+						"width": 343,
+						"height": 80,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -93,40 +128,50 @@
 					}
 				},
 				{
-					"type": "вМеню",
+					"type": "кузяДемо",
 					"properties": {
-						"type": "button",
-						"text": "OK",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 40,
-					"sid": 652072521722001,
+					"uid": 43,
+					"sid": 560099543678062,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Поворот": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Мигание": {
+							"properties": {}
+						}
+					},
 					"instanceFolderItem": {
-						"sid": 652072521722001,
+						"sid": 560099543678062,
 						"expanded": true
 					},
 					"world": {
-						"x": 329,
-						"y": 274,
-						"width": 172,
-						"height": 67,
-						"originX": 0,
-						"originY": 0,
+						"x": 412,
+						"y": 113,
+						"width": 205.33861835955955,
+						"height": 333.2249508466536,
+						"originX": 0.42653508771929827,
+						"originY": 0.22432432432432434,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

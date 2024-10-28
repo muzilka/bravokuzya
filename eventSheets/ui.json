@@ -45,6 +45,189 @@
 				}
 			],
 			"sid": 523629163679058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 823136006326542
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 776994981812281,
+					"parameters": {
+						"first-value": "LayoutName",
+						"comparison": 0,
+						"second-value": "\"победа\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "кузяДемо",
+					"sid": 657081110537890,
+					"behaviorType": "Поворот",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 304269528565119
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Тач",
+					"sid": 357158065916915,
+					"parameters": {
+						"object": "выход"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 113472112261789,
+					"parameters": {
+						"layout": "меню"
+					}
+				}
+			],
+			"sid": 557932353223644
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 202411650331820
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 149783733663421,
+					"parameters": {
+						"first-value": "LayoutName",
+						"comparison": 0,
+						"second-value": "\"проигрыш\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "кузяДемо",
+					"sid": 527433848254142,
+					"behaviorType": "Мигание",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "Infinity"
+					}
+				}
+			],
+			"sid": 936514985971527
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 174919124445374,
+					"disabled": true
+				}
+			],
+			"actions": [
+				{
+					"id": "get-item",
+					"objectClass": "ЛокальноеХранилище",
+					"sid": 480401298204198,
+					"parameters": {
+						"key": "\"pbd\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "победы",
+					"sid": 954955116311696,
+					"parameters": {
+						"text": "\"Ты победил \" &  ЛокальноеХранилище.ItemValue & \" раз\""
+					}
+				}
+			],
+			"sid": 856664849297891
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-double-tap-object",
+					"objectClass": "Тач",
+					"sid": 509479581210224,
+					"parameters": {
+						"object": "проигрыш"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "alert",
+					"objectClass": "Браузер",
+					"sid": 142478279927091,
+					"parameters": {
+						"message": "\"Запуск актуальной бета версии...\""
+					}
+				},
+				{
+					"id": "go-to-url",
+					"objectClass": "Браузер",
+					"sid": 420462204406327,
+					"parameters": {
+						"url": "\"https://muzilka.github.io/bravokuzya/get-beta.html\"",
+						"target": "self"
+					}
+				}
+			],
+			"sid": 774289519302868
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 571067515659279
+				}
+			],
+			"actions": [
+				{
+					"id": "lock-orientation",
+					"objectClass": "Браузер",
+					"sid": 884023885416622,
+					"parameters": {
+						"orientation": "landscape"
+					}
+				},
+				{
+					"id": "request-fullscreen",
+					"objectClass": "Браузер",
+					"sid": 332606156812215,
+					"parameters": {
+						"mode": "stretch-letterbox-scale",
+						"navigation-ui": "hide"
+					}
+				}
+			],
+			"sid": 357121755164548
 		}
 	],
 	"sid": 308337869872299

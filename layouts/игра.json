@@ -1045,7 +1045,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -1095,7 +1095,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -1179,7 +1179,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -1229,7 +1229,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -1279,7 +1279,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -1329,7 +1329,7 @@
 							"properties": {
 								"movement": "forwards-backwards",
 								"wave": "sine",
-								"period": 4,
+								"period": 2,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,

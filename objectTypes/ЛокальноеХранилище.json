@@ -1,0 +1,12 @@
+{
+	"name": "ЛокальноеХранилище",
+	"plugin-id": "LocalStorage",
+	"sid": 244771979722439,
+	"singleglobal-inst": {
+		"type": "ЛокальноеХранилище",
+		"properties": {},
+		"uid": 41,
+		"sid": 449914436247470,
+		"tags": ""
+	}
+}

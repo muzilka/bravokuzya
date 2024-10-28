@@ -8,8 +8,22 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Browser",
+			"name": "Браузер",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Button",
 			"name": "Кнопка",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Локальное хранилище",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -71,6 +85,20 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Flash",
+			"name": "Мигание",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Поворот",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Sin",
 			"name": "Синусоида",
 			"author": "Scirra",
@@ -113,7 +141,13 @@
 			"кузяДемо",
 			"шд",
 			"Текст",
-			"вМеню"
+			"вМеню",
+			"ЛокальноеХранилище",
+			"выход",
+			"Победа",
+			"проигрыш",
+			"победы",
+			"Браузер"
 		],
 		"subfolders": []
 	},

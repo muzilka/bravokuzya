@@ -4,7 +4,18 @@
 	"sid": 750217017143847,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Поворот",
+			"sid": 160623291530608
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Мигание",
+			"sid": 607923013472887
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
