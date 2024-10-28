@@ -4867,16 +4867,17 @@ self.C3_ExpressionFuncs = [
 			return () => f0();
 		},
 		() => "победа",
+		() => 8,
 		() => "проигрыш",
 		() => 0.1,
 		() => Infinity,
-		() => "pbd",
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => (and("Ты победил ", f0()) + " раз");
-		},
+		() => "bravokuzya",
 		() => "Запуск актуальной бета версии...",
-		() => "https://muzilka.github.io/bravokuzya/get-beta.html"
+		() => "https://muzilka.github.io/bravokuzya/get-beta.html",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => v0.GetValue();
+		}
 ];
 
 

@@ -36,17 +36,18 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Exps.layoutname,
+		C3.Plugins.System.Acts.AddVar,
 		C3.Behaviors.Rotate.Acts.SetEnabled,
+		C3.Plugins.System.Acts.SubVar,
 		C3.Behaviors.Flash.Acts.Flash,
-		C3.Plugins.LocalStorage.Acts.GetItem,
-		C3.Plugins.Text.Acts.SetText,
-		C3.Plugins.LocalStorage.Exps.ItemValue,
+		C3.Plugins.System.Cnds.OnLoadFinished,
+		C3.Plugins.System.Acts.LoadState,
 		C3.Plugins.Touch.Cnds.OnDoubleTapGestureObject,
 		C3.Plugins.Browser.Acts.Alert,
 		C3.Plugins.Browser.Acts.GoToURL,
-		C3.Plugins.System.Cnds.OnLoadFinished,
 		C3.Plugins.Browser.Acts.LockOrientation,
-		C3.Plugins.Browser.Acts.RequestFullScreen
+		C3.Plugins.Browser.Acts.RequestFullScreen,
+		C3.Plugins.Text.Acts.SetText
 	];
 };
 self.C3_JsPropNameTable = [
@@ -82,8 +83,10 @@ self.C3_JsPropNameTable = [
 	{выход: 0},
 	{Победа: 0},
 	{проигрыш: 0},
-	{победы: 0},
-	{Браузер: 0}
+	{Браузер: 0},
+	{сохранить: 0},
+	{кубкифон: 0},
+	{кубки: 0}
 ];
 
 self.InstanceType = {
@@ -111,6 +114,8 @@ self.InstanceType = {
 	выход: class extends self.ISpriteInstance {},
 	Победа: class extends self.ITextInstance {},
 	проигрыш: class extends self.ITextInstance {},
-	победы: class extends self.ITextInstance {},
-	Браузер: class extends self.IInstance {}
+	Браузер: class extends self.IInstance {},
+	сохранить: class extends self.ISpriteInstance {},
+	кубкифон: class extends self.ISpriteInstance {},
+	кубки: class extends self.ITextInstance {}
 }

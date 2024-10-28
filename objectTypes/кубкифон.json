@@ -1,0 +1,51 @@
+{
+	"name": "кубкифон",
+	"plugin-id": "Sprite",
+	"sid": 131049905985172,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 100,
+						"height": 39,
+						"originX": 0.501432664756447,
+						"originY": 0.4854014598540146,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5655814,
+						"collisionPoly": {
+							"points": [
+								0.054441260744985676,
+								0.014598540145985401,
+								0.9885386819484241,
+								0.0364963503649635,
+								1,
+								0.9781021897810219,
+								0.0028653295128939827,
+								0.9927007299270073
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 255026831406611,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

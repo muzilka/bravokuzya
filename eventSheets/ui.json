@@ -2,6 +2,16 @@
 	"name": "ui",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "кубки",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 760633709021818
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -67,6 +77,15 @@
 			],
 			"actions": [
 				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 388454564717871,
+					"parameters": {
+						"variable": "кубки",
+						"value": "8"
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "кузяДемо",
 					"sid": 657081110537890,
@@ -123,6 +142,15 @@
 			],
 			"actions": [
 				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 449948467201796,
+					"parameters": {
+						"variable": "кубки",
+						"value": "3"
+					}
+				},
+				{
 					"id": "flash",
 					"objectClass": "кузяДемо",
 					"sid": 527433848254142,
@@ -140,27 +168,18 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
+					"id": "on-loader-layout-complete",
 					"objectClass": "System",
-					"sid": 174919124445374,
-					"disabled": true
+					"sid": 323361108607201
 				}
 			],
 			"actions": [
 				{
-					"id": "get-item",
-					"objectClass": "ЛокальноеХранилище",
-					"sid": 480401298204198,
+					"id": "load",
+					"objectClass": "System",
+					"sid": 882519353348218,
 					"parameters": {
-						"key": "\"pbd\""
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "победы",
-					"sid": 954955116311696,
-					"parameters": {
-						"text": "\"Ты победил \" &  ЛокальноеХранилище.ItemValue & \" раз\""
+						"slot": "\"bravokuzya\""
 					}
 				}
 			],
@@ -228,6 +247,27 @@
 				}
 			],
 			"sid": 357121755164548
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 697113348511568
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "кубки",
+					"sid": 760335429117220,
+					"parameters": {
+						"text": "кубки"
+					}
+				}
+			],
+			"sid": 256878860132798
 		}
 	],
 	"sid": 308337869872299

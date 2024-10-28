@@ -159,18 +159,88 @@
 					}
 				},
 				{
-					"type": "победы",
+					"type": "сохранить",
 					"properties": {
-						"text": "Ты победил 0 раз",
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"sid": 196191985528992,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 196191985528992,
+						"expanded": true
+					},
+					"world": {
+						"x": 55,
+						"y": 38,
+						"width": 100,
+						"height": 64,
+						"originX": 0.4711111111111111,
+						"originY": 0.5069444444444444,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "кубкифон",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 46,
+					"sid": 243500020581136,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 243500020581136,
+						"expanded": true
+					},
+					"world": {
+						"x": 196,
+						"y": 36,
+						"width": 157.92727959736925,
+						"height": 61.59163904297401,
+						"originX": 0.501432664756447,
+						"originY": 0.4854014598540146,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "кубки",
+					"properties": {
+						"text": "0",
 						"enable-bbcode": true,
 						"font": "Franklin Gothic",
-						"size": 27,
+						"size": 16,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
+							1,
+							0.7294117647058823,
 							0,
 							1
 						],
@@ -179,24 +249,24 @@
 						"wrapping": "word",
 						"text-direction": "ltr",
 						"icon-set": -1,
-						"initially-visible": false,
+						"initially-visible": true,
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 44,
-					"sid": 461303532119535,
+					"uid": 47,
+					"sid": 636841983191699,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 461303532119535,
+						"sid": 636841983191699,
 						"expanded": true
 					},
 					"world": {
-						"x": 11,
-						"y": 11,
-						"width": 319,
-						"height": 57,
+						"x": 199.53947435469212,
+						"y": 15.026316236461412,
+						"width": 63,
+						"height": 23.328944463000823,
 						"originX": 0,
 						"originY": 0,
 						"color": [
