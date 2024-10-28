@@ -652,231 +652,6 @@
 					}
 				},
 				{
-					"type": "вправо",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"sid": 767477045744693,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Якорь": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 767477045744693,
-						"expanded": true
-					},
-					"world": {
-						"x": 806,
-						"y": 382,
-						"width": 70,
-						"height": 70,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.263230344142773,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "влево",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"sid": 655929989109914,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Якорь": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 655929989109914,
-						"expanded": true
-					},
-					"world": {
-						"x": 660,
-						"y": 385,
-						"width": 70,
-						"height": 70,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.263230344142773,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "вверх",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 6,
-					"sid": 840022136401176,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Якорь": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 840022136401176,
-						"expanded": true
-					},
-					"world": {
-						"x": 734,
-						"y": 313,
-						"width": 70,
-						"height": 70,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.263230344142773,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "вниз",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"sid": 387226446019514,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Якорь": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 387226446019514,
-						"expanded": true
-					},
-					"world": {
-						"x": 737,
-						"y": 443,
-						"width": 70,
-						"height": 70,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "атака",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"sid": 840246774117229,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Якорь": {
-							"properties": {
-								"left-edge": "window-left",
-								"top-edge": "window-top",
-								"right-edge": "none",
-								"bottom-edge": "none",
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 840246774117229,
-						"expanded": true
-					},
-					"world": {
-						"x": 125,
-						"y": 390,
-						"width": 101.91581027097727,
-						"height": 99.91746104997772,
-						"originX": 0.4965412405186756,
-						"originY": 0.498622233258151,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "шарик",
 					"properties": {
 						"initially-visible": true,
@@ -1351,6 +1126,231 @@
 						"height": 153.239718,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "вправо",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"sid": 767477045744693,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Якорь": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 767477045744693,
+						"expanded": true
+					},
+					"world": {
+						"x": 806,
+						"y": 382,
+						"width": 70,
+						"height": 70,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.263230344142773,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "влево",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"sid": 655929989109914,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Якорь": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 655929989109914,
+						"expanded": true
+					},
+					"world": {
+						"x": 660,
+						"y": 385,
+						"width": 70,
+						"height": 70,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.263230344142773,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "вверх",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"sid": 840022136401176,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Якорь": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 840022136401176,
+						"expanded": true
+					},
+					"world": {
+						"x": 734,
+						"y": 313,
+						"width": 70,
+						"height": 70,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.263230344142773,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "вниз",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"sid": 387226446019514,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Якорь": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 387226446019514,
+						"expanded": true
+					},
+					"world": {
+						"x": 737,
+						"y": 443,
+						"width": 70,
+						"height": 70,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "атака",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"sid": 840246774117229,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Якорь": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 840246774117229,
+						"expanded": true
+					},
+					"world": {
+						"x": 125,
+						"y": 390,
+						"width": 101.91581027097727,
+						"height": 99.91746104997772,
+						"originX": 0.4965412405186756,
+						"originY": 0.498622233258151,
 						"color": [
 							1,
 							1,

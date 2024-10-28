@@ -47,7 +47,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.GoToURL,
 		C3.Plugins.Browser.Acts.LockOrientation,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
-		C3.Plugins.Text.Acts.SetText
+		C3.Plugins.Text.Acts.SetText,
+		C3.Plugins.System.Acts.SaveState
 	];
 };
 self.C3_JsPropNameTable = [
