@@ -12,6 +12,16 @@
 			"sid": 760633709021818
 		},
 		{
+			"eventType": "variable",
+			"name": "started",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 756190620802435
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -93,6 +103,18 @@
 					"parameters": {
 						"state": "enabled"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 244404147869984,
+					"parameters": {
+						"audio-file": "победа",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"win\""
+					}
 				}
 			],
 			"sid": 304269528565119
@@ -141,6 +163,18 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 532385726964425,
+					"parameters": {
+						"audio-file": "поражение",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"lose\""
+					}
+				},
 				{
 					"id": "subtract-from-eventvar",
 					"objectClass": "System",
@@ -259,6 +293,11 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 124942870227251
+				},
+				{
 					"id": "set-text",
 					"objectClass": "кубки",
 					"sid": 760335429117220,
@@ -292,6 +331,41 @@
 				}
 			],
 			"sid": 778325300186336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 170583284400209
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 787103770154000,
+					"parameters": {
+						"first-value": "LayoutName",
+						"comparison": 0,
+						"second-value": "\"меню\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 437714939772406,
+					"parameters": {
+						"audio-file": "фонменю",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"menu\""
+					}
+				}
+			],
+			"sid": 838780742949919
 		}
 	],
 	"sid": 308337869872299

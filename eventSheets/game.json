@@ -351,6 +351,36 @@
 				}
 			],
 			"sid": 182496244192873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 638875463434529
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 680842156496106
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 247321066879029,
+					"parameters": {
+						"audio-file": "в игре",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 613247915342057
 		}
 	],
 	"sid": 180342587758737

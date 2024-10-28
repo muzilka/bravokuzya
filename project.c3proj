@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Аудио",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Browser",
 			"name": "Браузер",
 			"author": "Scirra",
@@ -149,7 +156,8 @@
 			"Браузер",
 			"сохранить",
 			"кубкифон",
-			"кубки"
+			"кубки",
+			"Аудио"
 		],
 		"subfolders": []
 	},
@@ -185,7 +193,48 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "загрузка.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 893921407479992,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "фонменю.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 955507698528887,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "победа.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 695996351546503,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "поражение.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 689310362203605,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "в игре.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 321206440077577,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
