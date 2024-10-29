@@ -87,6 +87,18 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 593529157843191,
+					"parameters": {
+						"audio-file": "победа",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"win\""
+					}
+				},
+				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
 					"sid": 388454564717871,
@@ -96,24 +108,16 @@
 					}
 				},
 				{
+					"callFunction": "save",
+					"sid": 299007780895593
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "кузяДемо",
 					"sid": 657081110537890,
 					"behaviorType": "Поворот",
 					"parameters": {
 						"state": "enabled"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Аудио",
-					"sid": 244404147869984,
-					"parameters": {
-						"audio-file": "победа",
-						"loop": "looping",
-						"volume": "0",
-						"stereo-pan": "0",
-						"tag-optional": "\"win\""
 					}
 				}
 			],
@@ -183,6 +187,10 @@
 						"variable": "кубки",
 						"value": "3"
 					}
+				},
+				{
+					"callFunction": "save",
+					"sid": 913559818702318
 				},
 				{
 					"id": "flash",
@@ -312,30 +320,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-tap-object",
-					"objectClass": "Тач",
-					"sid": 236236170328114,
-					"parameters": {
-						"object": "сохранить"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "save",
-					"objectClass": "System",
-					"sid": 845327799632890,
-					"parameters": {
-						"slot": "\"bravokuzya\""
-					}
-				}
-			],
-			"sid": 778325300186336
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 170583284400209
@@ -366,6 +350,28 @@
 				}
 			],
 			"sid": 838780742949919
+		},
+		{
+			"functionName": "save",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "save",
+					"objectClass": "System",
+					"sid": 840657464815992,
+					"parameters": {
+						"slot": "\"bravokuzya\""
+					}
+				}
+			],
+			"sid": 348114472959584
 		}
 	],
 	"sid": 308337869872299

@@ -159,41 +159,6 @@
 					}
 				},
 				{
-					"type": "сохранить",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 44,
-					"sid": 196191985528992,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 196191985528992,
-						"expanded": true
-					},
-					"world": {
-						"x": 55,
-						"y": 38,
-						"width": 100,
-						"height": 64,
-						"originX": 0.4711111111111111,
-						"originY": 0.5069444444444444,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "кубкифон",
 					"properties": {
 						"initially-visible": true,
@@ -212,8 +177,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 196,
-						"y": 36,
+						"x": 90.28942764447442,
+						"y": 33.947367527077176,
 						"width": 157.92727959736925,
 						"height": 61.59163904297401,
 						"originX": 0.501432664756447,
@@ -263,8 +228,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 199.53947435469212,
-						"y": 15.026316236461412,
+						"x": 95.88153447208936,
+						"y": 13.48684188176928,
 						"width": 63,
 						"height": 23.328944463000823,
 						"originX": 0,
